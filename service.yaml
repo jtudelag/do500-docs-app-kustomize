@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: do500-docs
+    app.kubernetes.io/component: do500-docs
+    app.kubernetes.io/instance: do500-docs
+    app.kubernetes.io/name: do500-docs
+  name: do500-docs
+spec:
+  ports:
+  - port: 8080
+    protocol: TCP
+    targetPort: 8080
+  selector:
+    deployment: do500-docs
+  sessionAffinity: None
+  type: ClusterIP
