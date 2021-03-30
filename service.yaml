@@ -5,7 +5,7 @@ metadata:
     app: do500-docs
     app.kubernetes.io/component: do500-docs
     app.kubernetes.io/instance: do500-docs
-    app.kubernetes.io/name: do500-docs
+    app.kubernetes.io/name: do500-docs-x
   name: do500-docs
 spec:
   ports:
