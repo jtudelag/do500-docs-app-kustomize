@@ -8,4 +8,4 @@ resources:
 
 images:
 - name: image-registry.openshift-image-registry.svc.cluster.local:5000/jtudela-pipelines/do500-docs
-  newTag: b80a05c
+  newTag: 1ba5e7b
