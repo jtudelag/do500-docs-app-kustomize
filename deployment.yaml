@@ -30,7 +30,7 @@ spec:
         deployment: do500-docs
     spec:
       containers:
-      - image: image-registry.openshift-image-registry.svc:5000/jtudela-pipelines/do500-docs:TO_BE_REPLACED_BY_KUSTOMIZE
+      - image: image-registry.openshift-image-registry.svc.cluster.local:5000/jtudela-pipelines/do500-docs:TO_BE_REPLACED_BY_KUSTOMIZE
         imagePullPolicy: IfNotPresent
         name: do500-docs
         resources: {}
